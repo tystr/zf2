@@ -28,14 +28,14 @@ namespace Zend\Ldap;
  *
  * @uses       ArrayAccess
  * @uses       \Zend\Ldap\Converter
- * @uses       \Zend\Ldap\Dn
+ * @uses       \Zend\Ldap\DN
  * @uses       \Zend\Ldap\Exception
  * @category   Zend
  * @package    Zend_Ldap
  * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
-class Dn implements \ArrayAccess
+class DN implements \ArrayAccess
 {
     const ATTR_CASEFOLD_NONE  = 'none';
     const ATTR_CASEFOLD_UPPER = 'upper';
